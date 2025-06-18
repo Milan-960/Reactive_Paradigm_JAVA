@@ -34,3 +34,15 @@ services:
     image: product-info-service
     ports:
       - 8082:8080
+
+  order-aggregator-service:
+    build:
+      context: ./order-aggregator-service
+    dockerfile: Dockerfile
+    image: order-aggregator-service
+    ports:
+      - 8083:8080
+    depends_on:
+      - mongo
+      - order-search-service
+      - product-info-service
