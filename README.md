@@ -7,19 +7,27 @@ Install [Docker](https://docs.docker.com/desktop/mac/install/) and [Docker Compo
 ### Instruction
 
 1. Go to directory with `docker-compose.yml`.
-    - `cd {PROJECT_DIR}`
-    
+   - `cd {PROJECT_DIR}`
 2. Build and run apps with Docker Compose.
-    - `docker-compose up --build`
-    
+   - `docker-compose up --build`
 3. Stop **Product Info service** _(for testing)_
-    - `docker-compose stop product-info-service`
-    
+   - `docker-compose stop product-info-service`
 4. Start **Product Info service** _(for testing)_
-    - `docker-compose start product-info-service`
+
+   - `docker-compose start product-info-service`
 
 5. Start **Order Aggregator service** _(for testing)_
-    - `docker-compose start order-aggregator-service`
+   - `docker-compose start order-aggregator-service`
+
+## Docker-container
+
+<img align="right" src="./Img/Docker-container.png" width="100%"/>&nbsp;
+&nbsp;
+
+## Crul-test
+
+<img align="right" src="./Img/Crul-test.png" width="100%"/>&nbsp;
+&nbsp;
 
 Project Checklist:
 
